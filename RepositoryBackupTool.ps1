@@ -51,7 +51,7 @@ $form.Controls.Add($btnBrowseDest)
 
 # --- Action buttons ---
 $btnSync = New-Object System.Windows.Forms.Button
-$btnSync.Text = "Clone Repos to Thumb Drive"
+$btnSync.Text = "Backup to Thumb Drive"
 $btnSync.Location = New-Object System.Drawing.Point(15, 140)
 $btnSync.Size = New-Object System.Drawing.Size(440, 40)
 $btnSync.Font = New-Object System.Drawing.Font($btnSync.Font, [System.Drawing.FontStyle]::Bold)
